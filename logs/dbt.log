@@ -22,3 +22,1550 @@ Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
 Happy modeling!
 
 [0m10:21:38.535339 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 08:51:05.396603 | 015de2d4-779f-44bb-9c3b-5c943c1414d3 ==============================
+[0m08:51:05.396611 [info ] [MainThread]: Running with dbt=1.2.1
+[0m08:51:05.396920 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m08:51:05.396988 [debug] [MainThread]: Tracking: do not track
+[0m08:51:05.478123 [debug] [MainThread]: Executing "git --help"
+[0m08:51:05.486857 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [-h | --help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m08:51:05.487206 [debug] [MainThread]: STDERR: "b''"
+[0m08:51:05.487560 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 08:52:51.338574 | a1aa8ed0-feb3-4073-909e-c390c519a5cf ==============================
+[0m08:52:51.338580 [info ] [MainThread]: Running with dbt=1.2.1
+[0m08:52:51.338902 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m08:52:51.338969 [debug] [MainThread]: Tracking: do not track
+[0m08:52:51.392308 [debug] [MainThread]: Executing "git --help"
+[0m08:52:51.403613 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [-h | --help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m08:52:51.403976 [debug] [MainThread]: STDERR: "b''"
+[0m08:52:51.404420 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 08:53:41.865183 | b14fdc56-6267-4b23-9684-4080df2705d3 ==============================
+[0m08:53:41.865188 [info ] [MainThread]: Running with dbt=1.2.1
+[0m08:53:41.865366 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m08:53:41.865431 [debug] [MainThread]: Tracking: do not track
+[0m08:53:41.910177 [debug] [MainThread]: Executing "git --help"
+[0m08:53:41.918067 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [-h | --help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m08:53:41.918532 [debug] [MainThread]: STDERR: "b''"
+[0m08:53:41.926718 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m08:53:41.927316 [debug] [MainThread]: Using postgres connection "debug"
+[0m08:53:41.927397 [debug] [MainThread]: On debug: select 1 as id
+[0m08:53:41.927486 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:53:45.123959 [debug] [MainThread]: SQL status: SELECT 1 in 3.2 seconds
+[0m08:53:45.127127 [debug] [MainThread]: On debug: Close
+[0m08:53:45.127976 [debug] [MainThread]: Flushing usage events
+[0m08:53:45.128287 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-06 08:55:10.294134 | e9af998e-0b6c-4fbe-9ab9-a58599a6f800 ==============================
+[0m08:55:10.294140 [info ] [MainThread]: Running with dbt=1.2.1
+[0m08:55:10.294316 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m08:55:10.294611 [debug] [MainThread]: Tracking: do not track
+[0m08:55:10.334919 [debug] [MainThread]: Executing "git --help"
+[0m08:55:10.342377 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [-h | --help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m08:55:10.342733 [debug] [MainThread]: STDERR: "b''"
+[0m08:55:10.345459 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m08:55:10.345977 [debug] [MainThread]: Using postgres connection "debug"
+[0m08:55:10.346054 [debug] [MainThread]: On debug: select 1 as id
+[0m08:55:10.346134 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:55:10.421494 [debug] [MainThread]: SQL status: SELECT 1 in 0.08 seconds
+[0m08:55:10.422861 [debug] [MainThread]: On debug: Close
+[0m08:55:10.423194 [debug] [MainThread]: Flushing usage events
+[0m08:55:10.423340 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-06 09:02:06.356182 | 4d08667d-b7d9-4102-8683-e7d05c79a268 ==============================
+[0m09:02:06.356188 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:02:06.356493 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m09:02:06.356716 [debug] [MainThread]: Tracking: do not track
+[0m09:02:06.405050 [debug] [MainThread]: Executing "git --help"
+[0m09:02:06.413990 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [-h | --help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m09:02:06.414333 [debug] [MainThread]: STDERR: "b''"
+[0m09:02:06.417593 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m09:02:06.417991 [debug] [MainThread]: Using postgres connection "debug"
+[0m09:02:06.418070 [debug] [MainThread]: On debug: select 1 as id
+[0m09:02:06.418148 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:02:09.833262 [debug] [MainThread]: SQL status: SELECT 1 in 3.41 seconds
+[0m09:02:09.837367 [debug] [MainThread]: On debug: Close
+[0m09:02:09.838325 [debug] [MainThread]: Flushing usage events
+[0m09:02:09.838724 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-06 09:03:16.816682 | 4d2cf431-19e7-4514-b37f-1b3583a13916 ==============================
+[0m09:03:16.816688 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:03:16.816869 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m09:03:16.816934 [debug] [MainThread]: Tracking: do not track
+[0m09:03:16.856678 [debug] [MainThread]: Executing "git --help"
+[0m09:03:16.864332 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [-h | --help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m09:03:16.864653 [debug] [MainThread]: STDERR: "b''"
+[0m09:03:16.867524 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m09:03:16.867933 [debug] [MainThread]: Using postgres connection "debug"
+[0m09:03:16.868008 [debug] [MainThread]: On debug: select 1 as id
+[0m09:03:16.868078 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:03:16.929974 [debug] [MainThread]: SQL status: SELECT 1 in 0.06 seconds
+[0m09:03:16.931556 [debug] [MainThread]: On debug: Close
+[0m09:03:16.931894 [debug] [MainThread]: Flushing usage events
+[0m09:03:16.932036 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-06 09:03:39.383825 | faee09f7-6042-45b5-95d3-f59f1381dd3a ==============================
+[0m09:03:39.383833 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:03:39.384011 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m09:03:39.384078 [debug] [MainThread]: Tracking: do not track
+[0m09:03:39.424364 [debug] [MainThread]: Executing "git --help"
+[0m09:03:39.432883 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [-h | --help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m09:03:39.433244 [debug] [MainThread]: STDERR: "b''"
+[0m09:03:39.435924 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m09:03:39.436486 [debug] [MainThread]: Using postgres connection "debug"
+[0m09:03:39.436569 [debug] [MainThread]: On debug: select 1 as id
+[0m09:03:39.436635 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:03:39.504023 [debug] [MainThread]: SQL status: SELECT 1 in 0.07 seconds
+[0m09:03:39.505269 [debug] [MainThread]: On debug: Close
+[0m09:03:39.505589 [debug] [MainThread]: Flushing usage events
+[0m09:03:39.505736 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-06 09:03:49.355136 | 8e0ae23e-43db-4ddc-8f5e-cf202f620e79 ==============================
+[0m09:03:49.355142 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:03:49.355324 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m09:03:49.355390 [debug] [MainThread]: Tracking: do not track
+[0m09:03:49.394849 [debug] [MainThread]: Executing "git --help"
+[0m09:03:49.402779 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [-h | --help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m09:03:49.403124 [debug] [MainThread]: STDERR: "b''"
+[0m09:03:49.405919 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m09:03:49.406367 [debug] [MainThread]: Using postgres connection "debug"
+[0m09:03:49.406447 [debug] [MainThread]: On debug: select 1 as id
+[0m09:03:49.406530 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:03:49.460573 [debug] [MainThread]: SQL status: SELECT 1 in 0.05 seconds
+[0m09:03:49.461706 [debug] [MainThread]: On debug: Close
+[0m09:03:49.461982 [debug] [MainThread]: Flushing usage events
+[0m09:03:49.462113 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-06 09:06:46.716015 | 860d211b-622d-445b-9550-fc193f00cfb4 ==============================
+[0m09:06:46.716021 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:06:46.716335 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m09:06:46.716401 [debug] [MainThread]: Tracking: do not track
+[0m09:06:46.763984 [debug] [MainThread]: Executing "git --help"
+[0m09:06:46.771959 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [-h | --help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m09:06:46.772381 [debug] [MainThread]: STDERR: "b''"
+[0m09:06:46.775672 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m09:06:46.776201 [debug] [MainThread]: Using postgres connection "debug"
+[0m09:06:46.776281 [debug] [MainThread]: On debug: select 1 as id
+[0m09:06:46.776366 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:06:46.851437 [debug] [MainThread]: SQL status: SELECT 1 in 0.08 seconds
+[0m09:06:46.852820 [debug] [MainThread]: On debug: Close
+[0m09:06:46.853137 [debug] [MainThread]: Flushing usage events
+[0m09:06:46.853294 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-06 09:07:09.326194 | 20cbe53b-be15-4c6b-8ab3-2efa6c729187 ==============================
+[0m09:07:09.326200 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:07:09.326388 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m09:07:09.326457 [debug] [MainThread]: Tracking: do not track
+[0m09:07:09.376430 [debug] [MainThread]: Executing "git --help"
+[0m09:07:09.383559 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [-h | --help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m09:07:09.383938 [debug] [MainThread]: STDERR: "b''"
+[0m09:07:09.387988 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m09:07:09.388506 [debug] [MainThread]: Using postgres connection "debug"
+[0m09:07:09.388600 [debug] [MainThread]: On debug: select 1 as id
+[0m09:07:09.388686 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:07:09.461622 [debug] [MainThread]: SQL status: SELECT 1 in 0.07 seconds
+[0m09:07:09.463019 [debug] [MainThread]: On debug: Close
+[0m09:07:09.463355 [debug] [MainThread]: Flushing usage events
+[0m09:07:09.463538 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-06 09:07:38.468169 | d5535e89-6be2-4375-aa1b-32db8fbbb2ad ==============================
+[0m09:07:38.468178 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:07:38.468376 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m09:07:38.468442 [debug] [MainThread]: Tracking: do not track
+[0m09:07:38.519977 [debug] [MainThread]: Executing "git --help"
+[0m09:07:38.526914 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [-h | --help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m09:07:38.527315 [debug] [MainThread]: STDERR: "b''"
+[0m09:07:38.529931 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m09:07:38.530355 [debug] [MainThread]: Using postgres connection "debug"
+[0m09:07:38.530430 [debug] [MainThread]: On debug: select 1 as id
+[0m09:07:38.530499 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:07:38.588955 [debug] [MainThread]: SQL status: SELECT 1 in 0.06 seconds
+[0m09:07:38.590216 [debug] [MainThread]: On debug: Close
+[0m09:07:38.590514 [debug] [MainThread]: Flushing usage events
+[0m09:07:38.590650 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-06 09:07:44.399134 | af84e546-9413-4121-bc24-4b279dc11845 ==============================
+[0m09:07:44.399159 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:07:44.399509 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m09:07:44.399641 [debug] [MainThread]: Tracking: do not track
+[0m09:07:44.421507 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m09:07:44.431627 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:07:44.432914 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:07:44.433630 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:07:44.446239 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:07:44.447023 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:07:44.447295 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:07:44.447948 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:07:44.451095 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:07:44.451308 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:07:44.451865 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:07:44.452342 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:07:44.454073 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:07:44.455096 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:07:44.455842 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:07:44.463724 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:07:44.470181 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:07:44.476034 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:07:44.478081 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:07:44.478880 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:07:44.479682 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:07:44.481684 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:07:44.490324 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:07:44.491036 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:07:44.495381 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:07:44.502903 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:07:44.505440 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:07:44.506714 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:07:44.509228 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:07:44.509788 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:07:44.511294 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:07:44.512296 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:07:44.515502 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:07:44.524333 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:07:44.524998 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:07:44.526090 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:07:44.526774 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:07:44.527167 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:07:44.527513 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:07:44.527807 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:07:44.528402 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:07:44.530394 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:07:44.534372 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:07:44.534734 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:07:44.535268 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:07:44.535703 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:07:44.536110 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:07:44.536662 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:07:44.537007 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:07:44.537458 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:07:44.537934 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:07:44.539038 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:07:44.539576 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:07:44.540056 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:07:44.540516 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:07:44.540966 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:07:44.541368 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:07:44.541834 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:07:44.542223 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:07:44.544860 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:07:44.545260 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:07:44.546051 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:07:44.546975 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:07:44.547424 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:07:44.548406 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:07:44.549585 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:07:44.556450 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:07:44.557742 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:07:44.563913 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:07:44.565879 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:07:44.569163 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:07:44.573673 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:07:44.706352 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:07:44.706807 [info ] [MainThread]: 
+[0m09:07:44.706926 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:07:44.709248 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:08:54.406638 | d96ea5a8-2e97-4bc0-a90b-0b7d98e36f76 ==============================
+[0m09:08:54.406664 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:08:54.409791 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m09:08:54.409917 [debug] [MainThread]: Tracking: do not track
+[0m09:08:54.444942 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:08:54.445094 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:08:54.450167 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:08:54.450770 [info ] [MainThread]: 
+[0m09:08:54.450891 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:08:54.453265 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:09:49.544769 | 8bf881fe-2fee-4891-b136-fc2945c4f9c5 ==============================
+[0m09:09:49.544804 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:09:49.550071 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m09:09:49.550215 [debug] [MainThread]: Tracking: do not track
+[0m09:09:49.578095 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m09:09:49.586703 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:09:49.588049 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:09:49.588751 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:09:49.600986 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:09:49.601740 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:09:49.602025 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:09:49.602687 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:09:49.605991 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:09:49.606236 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:09:49.606814 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:09:49.607416 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:09:49.609178 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:09:49.610177 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:09:49.610907 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:09:49.618736 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:09:49.625135 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:09:49.630974 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:09:49.633020 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:09:49.633811 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:09:49.634601 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:09:49.636588 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:09:49.644851 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:09:49.645533 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:09:49.649924 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:09:49.657482 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:09:49.660024 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:09:49.661284 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:09:49.663803 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:09:49.664360 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:09:49.665895 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:09:49.666893 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:09:49.670144 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:09:49.678976 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:09:49.679627 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:09:49.680720 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:09:49.681405 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:09:49.681805 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:09:49.682155 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:09:49.682449 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:09:49.683049 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:09:49.685030 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:09:49.689162 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:09:49.689516 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:09:49.690047 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:09:49.690465 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:09:49.690868 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:09:49.691409 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:09:49.691749 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:09:49.692214 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:09:49.692686 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:09:49.693803 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:09:49.694344 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:09:49.694813 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:09:49.695280 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:09:49.695731 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:09:49.696127 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:09:49.696594 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:09:49.696984 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:09:49.699628 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:09:49.700031 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:09:49.700825 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:09:49.701764 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:09:49.702239 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:09:49.703233 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:09:49.704447 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:09:49.711373 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:09:49.712665 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:09:49.718878 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:09:49.720898 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:09:49.724166 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:09:49.728694 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:09:49.857521 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.OnBoarding_mimic.Patients
+
+[0m09:09:49.862214 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:09:49.862634 [info ] [MainThread]: 
+[0m09:09:49.862743 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:09:49.865006 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:10:14.695406 | 3d750af2-066a-4733-9a5a-840917fe78b9 ==============================
+[0m09:10:14.695426 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:10:14.695757 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m09:10:14.695859 [debug] [MainThread]: Tracking: do not track
+[0m09:10:14.724787 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m09:10:14.733624 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:10:14.735106 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:10:14.735821 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:10:14.748789 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:10:14.749606 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:10:14.749885 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:10:14.750541 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:10:14.753749 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:10:14.753963 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:10:14.754534 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:10:14.755017 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:10:14.756781 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:10:14.757818 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:10:14.758568 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:10:14.766449 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:10:14.772898 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:10:14.778770 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:10:14.780820 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:10:14.781626 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:10:14.782418 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:10:14.784409 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:10:14.792739 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:10:14.793423 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:10:14.797851 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:10:14.805427 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:10:14.808018 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:10:14.809291 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:10:14.811848 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:10:14.812425 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:10:14.813967 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:10:14.814982 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:10:14.818259 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:10:14.827149 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:10:14.827811 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:10:14.828917 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:10:14.829608 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:10:14.830008 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:10:14.830354 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:10:14.830651 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:10:14.831270 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:10:14.833279 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:10:14.837358 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:10:14.837720 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:10:14.838280 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:10:14.838698 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:10:14.839120 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:10:14.839671 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:10:14.840031 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:10:14.840481 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:10:14.840960 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:10:14.842082 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:10:14.842631 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:10:14.843110 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:10:14.843591 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:10:14.844050 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:10:14.844453 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:10:14.844930 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:10:14.845337 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:10:14.848006 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:10:14.848423 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:10:14.849228 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:10:14.850161 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:10:14.850623 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:10:14.851620 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:10:14.852820 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:10:14.859823 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:10:14.861115 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:10:14.867401 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:10:14.869419 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:10:14.872749 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:10:14.877333 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:10:15.013442 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.OnBoarding_mimic.Patients
+
+[0m09:10:15.018274 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:10:15.018714 [info ] [MainThread]: 
+[0m09:10:15.018830 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:10:15.021120 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:10:27.988275 | a481eaec-62b8-4f46-9c62-ab516e9701fd ==============================
+[0m09:10:27.988304 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:10:27.988745 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m09:10:27.988844 [debug] [MainThread]: Tracking: do not track
+[0m09:10:28.016858 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m09:10:28.025718 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:10:28.027005 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:10:28.027664 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:10:28.040169 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:10:28.040942 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:10:28.041219 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:10:28.041886 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:10:28.045168 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:10:28.045464 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:10:28.046185 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:10:28.046693 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:10:28.048589 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:10:28.049688 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:10:28.050476 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:10:28.058578 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:10:28.065298 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:10:28.071411 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:10:28.073577 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:10:28.074390 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:10:28.075194 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:10:28.077181 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:10:28.085341 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:10:28.086021 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:10:28.090449 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:10:28.097866 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:10:28.100392 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:10:28.101652 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:10:28.104208 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:10:28.104796 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:10:28.106335 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:10:28.107346 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:10:28.110558 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:10:28.119260 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:10:28.119923 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:10:28.121037 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:10:28.121739 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:10:28.122134 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:10:28.122494 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:10:28.122792 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:10:28.123402 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:10:28.125375 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:10:28.129398 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:10:28.129751 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:10:28.130284 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:10:28.130710 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:10:28.131111 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:10:28.131650 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:10:28.131991 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:10:28.132438 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:10:28.132909 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:10:28.134017 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:10:28.134554 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:10:28.135027 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:10:28.135497 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:10:28.135944 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:10:28.136360 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:10:28.136827 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:10:28.137217 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:10:28.139885 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:10:28.140292 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:10:28.141081 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:10:28.142005 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:10:28.142457 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:10:28.143443 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:10:28.144607 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:10:28.151463 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:10:28.152757 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:10:28.158920 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:10:28.160880 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:10:28.164112 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:10:28.168638 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:10:28.302612 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.OnBoarding_mimic.Patients
+
+[0m09:10:28.307623 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:10:28.308116 [info ] [MainThread]: 
+[0m09:10:28.308249 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:10:28.310659 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:11:15.051634 | f1de42db-bf03-4368-8937-f1cb6b3502c0 ==============================
+[0m09:11:15.051671 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:11:15.052166 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m09:11:15.052266 [debug] [MainThread]: Tracking: do not track
+[0m09:11:15.079986 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m09:11:15.088815 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:11:15.090192 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:11:15.090905 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:11:15.104579 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:11:15.105629 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:11:15.105974 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:11:15.106702 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:11:15.110096 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:11:15.110333 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:11:15.110929 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:11:15.111436 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:11:15.113380 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:11:15.114514 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:11:15.115333 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:11:15.123934 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:11:15.130723 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:11:15.136774 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:11:15.138892 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:11:15.139726 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:11:15.140563 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:11:15.142626 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:11:15.151095 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:11:15.151822 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:11:15.156342 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:11:15.163829 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:11:15.166362 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:11:15.167631 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:11:15.170143 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:11:15.170722 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:11:15.172273 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:11:15.173320 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:11:15.176563 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:11:15.185269 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:11:15.185921 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:11:15.187009 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:11:15.187713 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:11:15.188108 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:11:15.188460 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:11:15.188773 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:11:15.189385 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:11:15.191403 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:11:15.195428 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:11:15.195799 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:11:15.196334 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:11:15.196749 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:11:15.197150 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:11:15.197698 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:11:15.198043 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:11:15.198490 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:11:15.198961 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:11:15.200070 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:11:15.200611 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:11:15.201081 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:11:15.201544 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:11:15.201988 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:11:15.202385 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:11:15.202850 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:11:15.203243 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:11:15.205903 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:11:15.206310 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:11:15.207118 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:11:15.208055 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:11:15.208507 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:11:15.209499 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:11:15.210671 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:11:15.217487 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:11:15.218759 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:11:15.225011 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:11:15.226996 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:11:15.230237 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:11:15.234736 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:11:15.363747 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mimiciii.Patients
+
+[0m09:11:15.368479 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:11:15.368921 [info ] [MainThread]: 
+[0m09:11:15.369036 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:11:15.371355 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:13:03.576903 | 32763efc-c8cb-452f-b858-b34585a4cbe5 ==============================
+[0m09:13:03.576929 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:13:03.577485 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m09:13:03.577585 [debug] [MainThread]: Tracking: do not track
+[0m09:13:03.611132 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:13:03.611306 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:13:03.611408 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mimiciii.Patients
+
+[0m09:13:03.616982 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:13:03.617650 [info ] [MainThread]: 
+[0m09:13:03.617781 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:13:03.620202 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:13:56.504266 | 3df0a7b1-edc1-47fa-a07a-733671ba20a2 ==============================
+[0m09:13:56.504291 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:13:56.504864 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m09:13:56.504952 [debug] [MainThread]: Tracking: do not track
+[0m09:13:56.536577 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m09:13:56.545683 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:13:56.547014 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:13:56.547696 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:13:56.560917 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:13:56.561899 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:13:56.562196 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:13:56.562878 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:13:56.566119 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:13:56.566336 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:13:56.566906 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:13:56.567380 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:13:56.569150 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:13:56.570203 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:13:56.570967 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:13:56.579299 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:13:56.585940 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:13:56.591971 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:13:56.594089 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:13:56.594919 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:13:56.595744 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:13:56.597787 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:13:56.606248 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:13:56.606967 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:13:56.611491 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:13:56.619198 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:13:56.621831 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:13:56.623140 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:13:56.625771 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:13:56.626374 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:13:56.627959 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:13:56.628994 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:13:56.632319 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:13:56.641388 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:13:56.642094 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:13:56.643234 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:13:56.643938 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:13:56.644354 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:13:56.644738 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:13:56.645043 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:13:56.645661 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:13:56.647709 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:13:56.651882 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:13:56.652252 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:13:56.652800 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:13:56.653229 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:13:56.653642 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:13:56.654198 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:13:56.654551 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:13:56.655012 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:13:56.655500 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:13:56.656644 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:13:56.657206 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:13:56.657702 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:13:56.658182 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:13:56.658646 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:13:56.659059 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:13:56.659541 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:13:56.659946 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:13:56.662659 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:13:56.663307 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:13:56.664205 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:13:56.665188 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:13:56.665667 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:13:56.666702 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:13:56.667929 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:13:56.674983 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:13:56.676339 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:13:56.682718 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:13:56.684775 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:13:56.688178 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:13:56.692916 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:13:56.826182 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mimiciii.Admissions
+
+[0m09:13:56.831442 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:13:56.831965 [info ] [MainThread]: 
+[0m09:13:56.832087 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:13:56.835201 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:19:57.662710 | c868f53c-71c7-4986-bfc6-57842cebfde5 ==============================
+[0m09:19:57.662731 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:19:57.663386 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m09:19:57.663481 [debug] [MainThread]: Tracking: do not track
+[0m09:19:57.701961 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:19:57.702110 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:19:57.702214 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mimiciii.Admissions
+
+[0m09:19:57.707261 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:19:57.707847 [info ] [MainThread]: 
+[0m09:19:57.707961 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:19:57.710146 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:20:59.621900 | 0c8d7aff-4c5f-49c1-aa73-04445da2f957 ==============================
+[0m09:20:59.621937 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:20:59.624620 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m09:20:59.624768 [debug] [MainThread]: Tracking: do not track
+[0m09:20:59.659044 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:20:59.659205 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:20:59.659301 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mimiciii.Admissions
+
+[0m09:20:59.664517 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:20:59.665155 [info ] [MainThread]: 
+[0m09:20:59.665274 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:20:59.667568 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:24:09.212922 | 94ead197-57eb-4245-8977-8100e04559f3 ==============================
+[0m09:24:09.212942 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:24:09.213486 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m09:24:09.213581 [debug] [MainThread]: Tracking: do not track
+[0m09:24:09.238259 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m09:24:09.246789 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:24:09.248110 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:24:09.248777 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:24:09.261292 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:24:09.262055 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:24:09.262330 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:24:09.263011 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:24:09.266300 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:24:09.266514 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:24:09.267075 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:24:09.267534 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:24:09.269251 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:24:09.270285 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:24:09.271021 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:24:09.278946 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:24:09.285308 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:24:09.291135 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:24:09.293167 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:24:09.293964 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:24:09.294758 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:24:09.296727 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:24:09.304918 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:24:09.305595 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:24:09.309978 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:24:09.317380 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:24:09.319948 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:24:09.321201 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:24:09.323723 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:24:09.324306 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:24:09.325827 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:24:09.326821 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:24:09.330019 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:24:09.338784 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:24:09.339442 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:24:09.340542 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:24:09.341236 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:24:09.341636 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:24:09.341985 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:24:09.342277 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:24:09.342872 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:24:09.344825 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:24:09.348819 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:24:09.349173 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:24:09.349730 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:24:09.350146 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:24:09.350550 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:24:09.351093 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:24:09.351438 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:24:09.351888 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:24:09.352361 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:24:09.353497 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:24:09.354033 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:24:09.354506 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:24:09.354965 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:24:09.355419 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:24:09.355818 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:24:09.356290 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:24:09.356693 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:24:09.359303 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:24:09.359711 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:24:09.360503 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:24:09.361428 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:24:09.361879 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:24:09.362859 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:24:09.364027 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:24:09.370889 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:24:09.372155 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:24:09.378488 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:24:09.380482 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:24:09.383734 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:24:09.388268 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:24:09.517553 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.OnBoarding_mimic
+- models.OnBoarding_mimic.Admissions
+
+[0m09:24:09.522538 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:24:09.522996 [info ] [MainThread]: 
+[0m09:24:09.523117 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:24:09.525607 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:24:54.992966 | 2a272c26-c6f6-48ed-bd49-1422e699ef14 ==============================
+[0m09:24:54.992987 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:24:54.993338 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m09:24:54.993417 [debug] [MainThread]: Tracking: do not track
+[0m09:24:55.017422 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m09:24:55.023526 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:24:55.024770 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:24:55.025435 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:24:55.037829 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:24:55.038621 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:24:55.038919 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:24:55.039622 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:24:55.042878 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:24:55.043092 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:24:55.043645 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:24:55.044112 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:24:55.045834 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:24:55.046854 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:24:55.047596 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:24:55.055448 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:24:55.061991 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:24:55.067827 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:24:55.069885 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:24:55.070711 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:24:55.071501 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:24:55.073470 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:24:55.081632 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:24:55.082314 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:24:55.086696 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:24:55.094161 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:24:55.096691 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:24:55.097950 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:24:55.100477 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:24:55.101037 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:24:55.102572 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:24:55.103582 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:24:55.106790 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:24:55.115499 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:24:55.116162 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:24:55.117361 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:24:55.118110 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:24:55.118528 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:24:55.118889 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:24:55.119211 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:24:55.119824 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:24:55.121834 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:24:55.125911 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:24:55.126273 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:24:55.126808 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:24:55.127225 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:24:55.127631 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:24:55.128169 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:24:55.128513 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:24:55.128966 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:24:55.129442 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:24:55.130549 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:24:55.131090 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:24:55.131564 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:24:55.132024 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:24:55.132467 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:24:55.132860 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:24:55.133326 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:24:55.133732 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:24:55.136386 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:24:55.136793 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:24:55.137639 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:24:55.138566 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:24:55.139018 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:24:55.140012 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:24:55.141198 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:24:55.148007 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:24:55.149279 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:24:55.155483 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:24:55.157541 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:24:55.160894 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:24:55.165437 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:24:55.294270 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.staging.Admissions
+
+[0m09:24:55.299061 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:24:55.299525 [info ] [MainThread]: 
+[0m09:24:55.299643 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:24:55.302083 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:25:37.766546 | eff6df4e-0f93-4994-ada2-f10b23e993e4 ==============================
+[0m09:25:37.766565 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:25:37.766940 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m09:25:37.767026 [debug] [MainThread]: Tracking: do not track
+[0m09:25:37.791543 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m09:25:37.797806 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:25:37.799154 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:25:37.799831 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:25:37.812370 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:25:37.813145 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:25:37.813424 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:25:37.814099 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:25:37.817376 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:25:37.817605 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:25:37.818191 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:25:37.818664 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:25:37.820425 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:25:37.821483 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:25:37.822236 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:25:37.830109 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:25:37.836550 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:25:37.842473 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:25:37.844787 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:25:37.845656 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:25:37.846456 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:25:37.848438 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:25:37.856748 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:25:37.857431 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:25:37.861854 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:25:37.869411 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:25:37.872169 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:25:37.873519 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:25:37.876064 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:25:37.876639 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:25:37.878190 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:25:37.879200 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:25:37.882415 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:25:37.891222 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:25:37.891878 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:25:37.892968 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:25:37.893649 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:25:37.894040 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:25:37.894386 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:25:37.894683 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:25:37.895283 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:25:37.897259 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:25:37.901284 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:25:37.901654 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:25:37.902189 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:25:37.902616 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:25:37.903030 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:25:37.903576 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:25:37.903923 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:25:37.904397 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:25:37.904885 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:25:37.905997 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:25:37.906535 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:25:37.907008 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:25:37.907475 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:25:37.907920 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:25:37.908313 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:25:37.908780 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:25:37.909166 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:25:37.911810 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:25:37.912217 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:25:37.913011 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:25:37.913931 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:25:37.914383 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:25:37.915370 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:25:37.916533 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:25:37.923396 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:25:37.924678 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:25:37.930800 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:25:37.932786 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:25:37.936022 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:25:37.940559 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:25:38.068942 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.staging
+
+[0m09:25:38.074082 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:25:38.074619 [info ] [MainThread]: 
+[0m09:25:38.074733 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:25:38.076927 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:25:56.521723 | 29c6ab00-87c8-4c8a-a68c-2a24d3f1eed7 ==============================
+[0m09:25:56.521759 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:25:56.522188 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m09:25:56.522997 [debug] [MainThread]: Tracking: do not track
+[0m09:25:56.548346 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m09:25:56.554725 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:25:56.556145 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:25:56.556849 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:25:56.569232 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:25:56.569996 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:25:56.570266 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:25:56.570917 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:25:56.574039 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:25:56.574244 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:25:56.574789 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:25:56.575251 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:25:56.576956 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:25:56.577960 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:25:56.578691 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:25:56.586439 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:25:56.592754 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:25:56.598552 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:25:56.600573 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:25:56.601354 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:25:56.602169 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:25:56.604142 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:25:56.612314 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:25:56.613040 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:25:56.617499 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:25:56.625020 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:25:56.627562 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:25:56.628827 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:25:56.631389 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:25:56.631956 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:25:56.633489 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:25:56.634492 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:25:56.637741 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:25:56.646581 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:25:56.647346 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:25:56.648462 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:25:56.649162 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:25:56.649563 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:25:56.649913 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:25:56.650210 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:25:56.650815 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:25:56.652814 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:25:56.656895 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:25:56.657255 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:25:56.657790 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:25:56.658202 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:25:56.658603 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:25:56.659139 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:25:56.659487 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:25:56.659945 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:25:56.660418 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:25:56.661522 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:25:56.662059 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:25:56.662523 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:25:56.663012 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:25:56.663468 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:25:56.663874 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:25:56.664346 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:25:56.664736 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:25:56.667349 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:25:56.667749 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:25:56.668558 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:25:56.669479 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:25:56.669934 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:25:56.670951 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:25:56.672153 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:25:56.679000 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:25:56.680337 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:25:56.686558 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:25:56.688554 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:25:56.691777 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:25:56.696347 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:25:56.822930 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.staging
+
+[0m09:25:56.827771 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:25:56.828237 [info ] [MainThread]: 
+[0m09:25:56.828362 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:25:56.830637 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:28:39.196542 | 7d630911-0192-4ad0-8377-2b9ea2565a58 ==============================
+[0m09:28:39.196563 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:28:39.196948 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m09:28:39.197036 [debug] [MainThread]: Tracking: do not track
+[0m09:28:39.220450 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m09:28:39.226580 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:28:39.227904 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:28:39.228625 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:28:39.241371 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:28:39.242234 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:28:39.242523 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:28:39.243194 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:28:39.246410 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:28:39.246620 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:28:39.247173 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:28:39.247640 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:28:39.249353 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:28:39.250373 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:28:39.251119 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:28:39.258988 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:28:39.265345 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:28:39.271153 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:28:39.273206 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:28:39.274008 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:28:39.274798 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:28:39.276796 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:28:39.284976 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:28:39.285658 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:28:39.290047 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:28:39.297540 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:28:39.300069 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:28:39.301325 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:28:39.303862 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:28:39.304428 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:28:39.305987 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:28:39.307002 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:28:39.310283 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:28:39.319036 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:28:39.319686 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:28:39.320778 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:28:39.321461 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:28:39.321874 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:28:39.322223 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:28:39.322520 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:28:39.323125 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:28:39.325135 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:28:39.329241 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:28:39.329627 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:28:39.330171 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:28:39.330598 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:28:39.331005 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:28:39.331555 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:28:39.331905 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:28:39.332358 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:28:39.332828 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:28:39.333948 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:28:39.334493 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:28:39.334969 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:28:39.335438 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:28:39.335886 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:28:39.336284 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:28:39.336750 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:28:39.337137 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:28:39.339778 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:28:39.340187 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:28:39.340999 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:28:39.341957 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:28:39.342410 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:28:39.343395 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:28:39.344599 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:28:39.351528 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:28:39.352837 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:28:39.359143 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:28:39.361132 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:28:39.364387 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:28:39.368894 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:28:39.499164 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.OnBoarding_mimic.staging
+
+[0m09:28:39.503854 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:28:39.504291 [info ] [MainThread]: 
+[0m09:28:39.504403 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:28:39.506537 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:28:59.384907 | 3be33e0b-93fa-4d90-be67-baa24c9c762e ==============================
+[0m09:28:59.384945 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:28:59.385391 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m09:28:59.385496 [debug] [MainThread]: Tracking: do not track
+[0m09:28:59.410376 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m09:28:59.416712 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:28:59.417961 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:28:59.418627 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:28:59.431158 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:28:59.431967 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:28:59.432243 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:28:59.432898 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:28:59.436026 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:28:59.436230 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:28:59.436780 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:28:59.437242 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:28:59.438943 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:28:59.439946 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:28:59.440684 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:28:59.448486 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:28:59.454764 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:28:59.460580 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:28:59.462606 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:28:59.463396 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:28:59.464177 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:28:59.466134 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:28:59.474273 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:28:59.474961 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:28:59.479362 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:28:59.486752 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:28:59.489303 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:28:59.490553 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:28:59.493109 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:28:59.493696 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:28:59.495229 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:28:59.496220 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:28:59.499451 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:28:59.508145 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:28:59.508809 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:28:59.509893 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:28:59.510592 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:28:59.510999 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:28:59.511349 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:28:59.511662 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:28:59.512261 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:28:59.514224 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:28:59.518227 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:28:59.518579 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:28:59.519108 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:28:59.519521 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:28:59.519921 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:28:59.520457 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:28:59.520799 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:28:59.521240 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:28:59.521716 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:28:59.522844 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:28:59.523390 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:28:59.523861 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:28:59.524325 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:28:59.524782 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:28:59.525194 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:28:59.525661 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:28:59.526077 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:28:59.528721 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:28:59.529127 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:28:59.529918 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:28:59.530840 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:28:59.531294 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:28:59.532271 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:28:59.533443 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:28:59.540247 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:28:59.541540 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:28:59.547926 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:28:59.549946 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:28:59.553215 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:28:59.557783 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:28:59.687750 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.staging
+
+[0m09:28:59.692499 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:28:59.692939 [info ] [MainThread]: 
+[0m09:28:59.693053 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:28:59.695378 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:31:08.689294 | ee4fdeec-1877-4238-ae85-6506e19c4393 ==============================
+[0m09:31:08.689337 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:31:08.690415 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m09:31:08.690539 [debug] [MainThread]: Tracking: do not track
+[0m09:31:08.715887 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m09:31:08.724569 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:31:08.725939 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:31:08.726653 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:31:08.739448 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:31:08.740297 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:31:08.740576 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:31:08.741237 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:31:08.744402 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:31:08.744613 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:31:08.745188 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:31:08.745646 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:31:08.747342 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:31:08.748347 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:31:08.749086 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:31:08.756833 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:31:08.763291 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:31:08.769075 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:31:08.771094 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:31:08.771891 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:31:08.772675 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:31:08.774654 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:31:08.782874 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:31:08.783551 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:31:08.787874 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:31:08.795353 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:31:08.797868 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:31:08.799115 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:31:08.801615 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:31:08.802170 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:31:08.803681 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:31:08.804673 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:31:08.807890 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:31:08.816670 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:31:08.817323 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:31:08.818409 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:31:08.819086 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:31:08.819478 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:31:08.819825 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:31:08.820117 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:31:08.820710 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:31:08.822669 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:31:08.826778 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:31:08.827145 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:31:08.827699 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:31:08.828111 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:31:08.828510 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:31:08.829058 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:31:08.829403 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:31:08.829844 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:31:08.830306 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:31:08.831400 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:31:08.831936 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:31:08.832396 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:31:08.832853 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:31:08.833297 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:31:08.833689 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:31:08.834148 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:31:08.834534 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:31:08.837135 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:31:08.837538 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:31:08.838320 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:31:08.839242 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:31:08.839697 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:31:08.840703 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:31:08.841885 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:31:08.848738 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:31:08.850013 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:31:08.856122 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:31:08.858100 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:31:08.861363 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:31:08.865845 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:31:08.993629 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.staging
+
+[0m09:31:08.998541 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:31:08.999009 [info ] [MainThread]: 
+[0m09:31:08.999134 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:31:09.001530 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:32:11.702922 | 01a69271-d872-44bf-bfb0-0865647c03de ==============================
+[0m09:32:11.702946 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:32:11.703306 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m09:32:11.703388 [debug] [MainThread]: Tracking: do not track
+[0m09:32:11.727720 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m09:32:11.733766 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m09:32:11.735003 [debug] [MainThread]: Parsing macros/relations.sql
+[0m09:32:11.735666 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m09:32:11.748164 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m09:32:11.748978 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:32:11.749251 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:32:11.749904 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:32:11.753078 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:32:11.753309 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:32:11.753855 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:32:11.754312 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m09:32:11.756000 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m09:32:11.757021 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m09:32:11.757758 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m09:32:11.765547 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m09:32:11.771823 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m09:32:11.777599 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m09:32:11.779659 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m09:32:11.780479 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m09:32:11.781255 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m09:32:11.783209 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m09:32:11.791325 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m09:32:11.792001 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m09:32:11.796390 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m09:32:11.803870 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m09:32:11.806384 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m09:32:11.807635 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m09:32:11.810144 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m09:32:11.810699 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m09:32:11.812253 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m09:32:11.813452 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m09:32:11.816772 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m09:32:11.825600 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m09:32:11.826293 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m09:32:11.827389 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m09:32:11.828088 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m09:32:11.828492 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m09:32:11.828846 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m09:32:11.829145 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m09:32:11.829788 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m09:32:11.831793 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m09:32:11.835867 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m09:32:11.836238 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m09:32:11.836770 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m09:32:11.837184 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m09:32:11.837585 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m09:32:11.838122 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m09:32:11.838466 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m09:32:11.838914 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m09:32:11.839391 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m09:32:11.840506 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m09:32:11.841044 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m09:32:11.841516 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m09:32:11.841975 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m09:32:11.842421 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m09:32:11.842828 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m09:32:11.843306 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m09:32:11.843700 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m09:32:11.846375 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m09:32:11.846784 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m09:32:11.847583 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m09:32:11.848504 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m09:32:11.848952 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m09:32:11.849946 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m09:32:11.851115 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m09:32:11.857938 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m09:32:11.859226 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m09:32:11.865657 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m09:32:11.867686 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m09:32:11.870946 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m09:32:11.875449 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m09:32:12.004845 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mimiciii.staging
+
+[0m09:32:12.009531 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:32:12.009959 [info ] [MainThread]: 
+[0m09:32:12.010069 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:32:12.012375 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:32:35.084229 | 3decc938-0df8-488f-8544-ce211d154d27 ==============================
+[0m09:32:35.084269 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:32:35.091073 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m09:32:35.091203 [debug] [MainThread]: Tracking: do not track
+[0m09:32:35.126874 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:32:35.127033 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:32:35.127121 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mimiciii.staging
+
+[0m09:32:35.132217 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:32:35.132800 [info ] [MainThread]: 
+[0m09:32:35.132914 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:32:35.135142 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:34:17.625013 | 60686a72-9aa0-452b-bbd9-37d42adb4335 ==============================
+[0m09:34:17.625034 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:34:17.625385 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m09:34:17.625476 [debug] [MainThread]: Tracking: do not track
+[0m09:34:17.656764 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:34:17.656918 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:34:17.657019 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mimiciii.staging
+
+[0m09:34:17.662330 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:34:17.663053 [info ] [MainThread]: 
+[0m09:34:17.663176 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:34:17.665393 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:35:08.863980 | cdda1fda-d794-4b3f-a429-77373fe76372 ==============================
+[0m09:35:08.864025 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:35:08.864593 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m09:35:08.864705 [debug] [MainThread]: Tracking: do not track
+[0m09:35:08.898364 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:35:08.898519 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:35:08.898616 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mimiciii.staging
+
+[0m09:35:08.903974 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:35:08.904549 [info ] [MainThread]: 
+[0m09:35:08.904666 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:35:08.906876 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:35:39.151731 | f822eb8a-9d74-4fb5-8d28-af5a09c4149a ==============================
+[0m09:35:39.151737 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:35:39.151917 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m09:35:39.151984 [debug] [MainThread]: Tracking: do not track
+[0m09:35:39.204472 [debug] [MainThread]: Executing "git --help"
+[0m09:35:39.215213 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [-h | --help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m09:35:39.215546 [debug] [MainThread]: STDERR: "b''"
+[0m09:35:39.218606 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m09:35:39.219141 [debug] [MainThread]: Using postgres connection "debug"
+[0m09:35:39.219228 [debug] [MainThread]: On debug: select 1 as id
+[0m09:35:39.219296 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:35:39.316737 [debug] [MainThread]: SQL status: SELECT 1 in 0.1 seconds
+[0m09:35:39.318595 [debug] [MainThread]: On debug: Close
+[0m09:35:39.319023 [debug] [MainThread]: Flushing usage events
+[0m09:35:39.319218 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-06 09:35:58.237839 | 1d19ce2a-a63a-4f72-aeab-71505ee08646 ==============================
+[0m09:35:58.237864 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:35:58.238305 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m09:35:58.238399 [debug] [MainThread]: Tracking: do not track
+[0m09:35:58.271966 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:35:58.272121 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:35:58.272217 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mimiciii.staging
+
+[0m09:35:58.277286 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:35:58.277851 [info ] [MainThread]: 
+[0m09:35:58.277970 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:35:58.280292 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:37:21.621974 | 76f0b7ab-3b06-48ac-9e58-c28e022227dd ==============================
+[0m09:37:21.622005 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:37:21.634380 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m09:37:21.634484 [debug] [MainThread]: Tracking: do not track
+[0m09:37:21.664677 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:37:21.664819 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:37:21.664907 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mimiciii.staging
+
+[0m09:37:21.669963 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:37:21.670551 [info ] [MainThread]: 
+[0m09:37:21.670663 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:37:21.672960 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-06 09:39:35.013177 | 6b27ba0f-30df-4d34-a1e9-bc7ea28d2e10 ==============================
+[0m09:39:35.013201 [info ] [MainThread]: Running with dbt=1.2.1
+[0m09:39:35.013715 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/Alice/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m09:39:35.013804 [debug] [MainThread]: Tracking: do not track
+[0m09:39:35.050074 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:39:35.050232 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:39:35.050332 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mimiciii.staging
+
+[0m09:39:35.055676 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m09:39:35.056264 [info ] [MainThread]: 
+[0m09:39:35.056379 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m09:39:35.058571 [debug] [MainThread]: Flushing usage events

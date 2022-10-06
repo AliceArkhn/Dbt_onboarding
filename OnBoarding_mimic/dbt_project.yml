@@ -1,23 +1,22 @@
-
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'OnBoarding_mimic'
+name: "OnBoarding_mimic"
 version: '1.0.0'
 config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'OnBoarding_mimic'
+profile: "arkhn"
 
 # These configurations specify where dbt should look for different types of files.
 # The `model-paths` config, for example, states that models in this project can be
 # found in the "models/" directory. You probably won't need to change these!
 model-paths: ["models"]
-analysis-paths: ["analyses"]
+#analysis-paths: ["analyses"]
 test-paths: ["tests"]
-seed-paths: ["seeds"]
-macro-paths: ["macros"]
-snapshot-paths: ["snapshots"]
+#seed-paths: ["seeds"]
+#macro-paths: ["macros"]
+#snapshot-paths: ["snapshots"]
 
 target-path: "target"  # directory which will store compiled SQL files
 clean-targets:         # directories to be removed by `dbt clean`
@@ -32,7 +31,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
-  OnBoarding_mimic:
+  mimiciii:
+    staging:
     # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+       +materialized: view
