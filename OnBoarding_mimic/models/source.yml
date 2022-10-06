@@ -6,4 +6,6 @@ sources :
     schema: mimiciii
     tables:
         - name: ADMISSIONS
+        - name: CHARTEVENTS
+        - name: PATIENTS
 

@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_admissions_al
+  - name: stg_admissions
     description: admissions
     tests:
         - not_null
