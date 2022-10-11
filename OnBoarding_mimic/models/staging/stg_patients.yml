@@ -1,7 +1,19 @@
 version: 2
 
 models:
-  - name: stg_patients
-    description: patients
-    tests:
-        - not_null
+    - name: stg_patients
+      description: Define patients
+      columns:
+        - name: "ROW_ID"
+          description: This is a unique identifier
+          tests:
+            - unique
+            - not_null
+
+        - name: "SUBJECT_ID"
+          description: id of the patient
+          tests:
+            - not_null
+
+        - name: "GENDER"
+          description: patient's gender

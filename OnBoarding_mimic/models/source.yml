@@ -5,7 +5,13 @@ sources :
     database: exo-sqlfundamental
     schema: mimiciii
     tables:
-        - name: ADMISSIONS
-        - name: CHARTEVENTS
-        - name: PATIENTS
+      - name: ADMISSIONS
+      - name: PATIENTS
+      - name: SUBJECT_ID
 
+
+  - name: mimic2
+    database: exo-sqlfundamental
+    schema: justine
+    tables:
+        - name: chartevents

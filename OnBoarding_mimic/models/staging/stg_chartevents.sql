@@ -1,3 +1,3 @@
 SELECT *
 FROM
-    {{ source('mimic','CHARTEVENTS') }}
+    {{ source('mimic2','chartevents') }}
